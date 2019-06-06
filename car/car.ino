@@ -1,8 +1,6 @@
 
 
 /*
-   -- New project --
-   
    This source code of graphical user interface 
    has been generated automatically by RemoteXY editor.
    To compile this code using RemoteXY library 2.3.1 or later version 
@@ -123,9 +121,8 @@ void loop()
   
   //manage the right motor
   Wheel (RightMotor, RemoteXY.joystick_1_y - RemoteXY.joystick_1_x);
+  //manage the left motor
   Wheel (LeftMotor, RemoteXY.joystick_1_y + RemoteXY.joystick_1_x);
   // use the RemoteXY structure for data transfer
 
-
 }
-
